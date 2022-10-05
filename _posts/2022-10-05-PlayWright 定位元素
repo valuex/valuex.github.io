@@ -1,0 +1,5 @@
+
+定位属性中具有特征的某个元素
+```python
+page.locator('a[target="_blank"]').click()
+```
