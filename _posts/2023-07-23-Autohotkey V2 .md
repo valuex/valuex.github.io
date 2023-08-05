@@ -1,3 +1,15 @@
+---
+layout:     post
+title:      Autohotkey V2
+subtitle:   Autohotkey V2
+date:       2023-07-23
+author:     Valuex
+header-img: 
+catalog: 	 true
+tags:
+    - AutoHotKey
+---
+
 # Get Window Info
 Acc library for AHK v2
 https://www.autohotkey.com/boards/viewtopic.php?f=83&t=107857
