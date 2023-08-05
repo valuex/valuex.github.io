@@ -18,3 +18,31 @@ obj_Element:=  Acc.ElementFromPoint()
 Elm_RoleText:=obj_Element.RoleText
 msgbox Elm_RoleText
 ```
+
+# Element 的属性
+包括以下内容，详见`ACC.ahk` 中 `IAccessible element properties` 这个部分的内容。
+```
+      Name                
+      Value               
+      Role                
+      RoleText            
+      Help                
+      KeyboardShortcut    
+      State               
+      StateText           
+      Description         
+      DefaultAction       
+      Focus               
+                          
+      Selection           
+      Parent              
+      IsChild             
+      Length              
+      Location            
+      Children            
+      Exists              
+      ControlID           
+      WinID               
+      accessible          
+      childId             
+```
