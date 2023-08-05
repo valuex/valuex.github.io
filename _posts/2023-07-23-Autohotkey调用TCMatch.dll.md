@@ -1,4 +1,14 @@
-
+---
+layout:     post
+title:      Autohotkey 调用 TCMatch.dll
+subtitle:   Autohotkey V2
+date:       2023-07-23
+author:     Valuex
+header-img: 
+catalog: 	 true
+tags:
+    - AutoHotKey
+---
 # Autohotkey 调用 TCMatch.dll 
 需要将需要将 tcmatch.ini, tcmatch64.dll, tcmatch.tbl  放到一起
 ```autohotkey
