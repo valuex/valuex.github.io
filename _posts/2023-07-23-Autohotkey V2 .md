@@ -11,5 +11,10 @@ tags:
 ---
 
 # Get Window Info
-Acc library for AHK v2
+Acc library for AHK v2  
 https://www.autohotkey.com/boards/viewtopic.php?f=83&t=107857
+
+
+# Explorer
+Get selected item path in explorer  
+https://www.autohotkey.com/boards/viewtopic.php?t=86933
