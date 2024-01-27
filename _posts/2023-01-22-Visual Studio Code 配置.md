@@ -12,4 +12,12 @@ value:UTF8
 2. Autohotkey  
 安装 AutoHotkey Plus  
 Publisher: Weijan Chen  
-VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-autohotkey-plus  
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-autohotkey-plus
+
+3. Code Runner
+setting 中搜索`coder-runner`编辑`code-runner.executorMapByFileExtension`中的内容
+```
+".ahk": "\"C:/Program Files/AutoHotkey/v2.0.4/AutoHotkey64.exe\"",
+".py": "C:/xxx/Python312/python.exe -u"
+```
+
