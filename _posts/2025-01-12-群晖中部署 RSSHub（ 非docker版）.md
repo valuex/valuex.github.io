@@ -23,18 +23,25 @@ cd /volume1/your_dir/RSSHub
 ```
 6. 安装RSSHub 所需依赖项
    参考RSSHub官方教程[开始之前 | RSSHub](https://docs.rsshub.app/zh/joinus/new-rss/before-start) 
-```pnpm i```
+```
+pnpm i
+pnpm build
+pnpm start
+```
+8. 访问`http://nas_ip:1200` 即可看到效果    
+9. 参照IPV6 公网访问NAS（[外网访问群晖：IPV6+DDNS - 知乎](https://zhuanlan.zhihu.com/p/717555214)），在路由中设置内网路由转发  
+10. 通过域名+代理端口(如 `https://you_synology_domain:1200`) 即可在外网访问部署的RSSHub
 
 
-7. 访问`http://nas_ip:1200` 即可看到效果    
-8. 参照IPV6 公网访问NAS（[外网访问群晖：IPV6+DDNS - 知乎](https://zhuanlan.zhihu.com/p/717555214)），在路由中设置内网路由转发  
-9. 通过域名+代理端口(如 `https://you_synology_domain:1200`) 即可在外网访问部署的RSSHub
 # 如何在群晖重启后同步启动RSSHub
 可以在【控制面板】-》【任务计划】中添加一个开机启动RSSHub的任务。任务设置中的内容为
 ```
 cd /Your_RSSHub_Path/
 pnpm start
 ```
+# 退出`putty`后如何持续运行RSSHub
+参照上个问题，在群晖中创建启动任务后，右键脚本->运行即可
+![image](https://github.com/user-attachments/assets/7cc4563d-4846-4cd2-b01e-f54a7d7166af)
 
 # 如何创建和部署自己的路由？
 可以在本地电脑上调试好路由，然后将路由脚本上传到NAS_RSSHub_Dir 下面。重启RSSHub即可。
