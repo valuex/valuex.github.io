@@ -38,4 +38,26 @@ pnpm start
 
 # 如何创建和部署自己的路由？
 可以在本地电脑上调试好路由，然后将路由脚本上传到NAS_RSSHub_Dir 下面。重启RSSHub即可。
+```
+pnpm build
+pnpm start
+```
+# 升级 `nodejs`
+```
+; https://www.cnblogs.com/visionsl/p/16824968.html
+npm install -g n
+n stable
+```
+# 报错解决
+1. 文件被打开，
+   ```
+   Error: EMFILE: too many open files, open '/volume1/web/RSSHub-master/node_modules/.pnpm/tosource@2.0.0-alpha.3/node_modules/tosource/dist/index.js'
+```
+解决办法
+```
+; https://blog.csdn.net/weixin_44772835/article/details/128610490
+ulimit n 65535
+```
+2. `pnpm i` 安装报错，多尝试几次，或者试试 `npm install`
+
 
