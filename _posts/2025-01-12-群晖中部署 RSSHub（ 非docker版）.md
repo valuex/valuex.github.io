@@ -50,10 +50,11 @@ n stable
 ```
 # 报错解决
 1. 文件被打开，
-   ```
+```
    Error: EMFILE: too many open files, open '/volume1/web/RSSHub-master/node_modules/.pnpm/tosource@2.0.0-alpha.3/node_modules/tosource/dist/index.js'
 ```
 解决办法
+
 ```
 ; https://blog.csdn.net/weixin_44772835/article/details/128610490
 ulimit n 65535
