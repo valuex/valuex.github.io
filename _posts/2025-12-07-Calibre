@@ -1,0 +1,8 @@
+# Calibre desktop
+https://calibre-ebook.com/download_portable
+# Cabilbre-web
+功能：网页版app，实现书籍展示。
+# Cablibre-server
+johngong/ calibre-web 既有Calibre-web （网页app功能）也有服务器功能。
+- 服务器功能需要单独打开。
+- [https://github.com/valuex/valuex.github.io/issues/2]:https://github.com/valuex/valuex.github.io/issues/2
